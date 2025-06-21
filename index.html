@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,7 +16,9 @@
   <meta property="og:description" content="Creative web development portfolio with clean and responsive website designs." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://branabuilds.github.io/Branabuilds/" />
-  <meta property="og:image" content="https://branabuilds.github.io/Branabuilds/images/preview.jpg" />
+  <meta property="og:image" content="https://via.placeholder.com/1200x630.png?text=BranaBuilds+Portfolio" />
+
+  <link rel="icon" href="https://via.placeholder.com/32.png" type="image/png">
 
   <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
@@ -57,17 +58,20 @@
 
   <section id="projects" class="p-8 max-w-4xl mx-auto animate__animated animate__fadeInUp">
     <h2 class="text-2xl font-bold text-primary mb-4">Projects</h2>
-    <div class="space-y-4">
+    <div class="space-y-6">
       <div class="bg-white dark:bg-gray-800 shadow p-4 border-l-4 border-primary hover:scale-105 transform transition-transform">
-        <h3 class="text-xl font-semibold">SmartHerb Site</h3>
+        <img src="https://via.placeholder.com/800x400?text=SmartHerb+Site" alt="SmartHerb Project" class="mb-3 rounded">
+        <h3 class="text-xl font-semibold"><a href="#" class="hover:underline">SmartHerb Site</a></h3>
         <p>A clean landing page for herbal product promotion, built with HTML, CSS and a splash of JavaScript.</p>
       </div>
       <div class="bg-white dark:bg-gray-800 shadow p-4 border-l-4 border-primary hover:scale-105 transform transition-transform">
-        <h3 class="text-xl font-semibold">Eventify</h3>
+        <img src="https://via.placeholder.com/800x400?text=Eventify" alt="Eventify Project" class="mb-3 rounded">
+        <h3 class="text-xl font-semibold"><a href="#" class="hover:underline">Eventify</a></h3>
         <p>An event promotion site with RSVP forms and a modern layout. Ideal for parties, seminars, or product launches.</p>
       </div>
       <div class="bg-white dark:bg-gray-800 shadow p-4 border-l-4 border-primary hover:scale-105 transform transition-transform">
-        <h3 class="text-xl font-semibold">QuickLaundry</h3>
+        <img src="https://via.placeholder.com/800x400?text=QuickLaundry" alt="QuickLaundry Project" class="mb-3 rounded">
+        <h3 class="text-xl font-semibold"><a href="#" class="hover:underline">QuickLaundry</a></h3>
         <p>A simple and functional site for a laundry service with pricing, gallery and contact features.</p>
       </div>
     </div>
@@ -76,7 +80,13 @@
   <section id="contact" class="p-8 max-w-4xl mx-auto animate__animated animate__fadeInUp">
     <h2 class="text-2xl font-bold text-primary mb-4">Contact</h2>
     <p class="mb-4">Let’s connect! Reach out to start a project or just say hi:</p>
-    <div class="flex flex-wrap gap-4">
+    <form action="https://formspree.io/f/xwkgrqgd" method="POST" class="space-y-4">
+      <input type="text" name="name" placeholder="Your Name" required class="w-full p-3 rounded bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-600">
+      <input type="email" name="email" placeholder="Your Email" required class="w-full p-3 rounded bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-600">
+      <textarea name="message" placeholder="Your Message" rows="4" required class="w-full p-3 rounded bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-600"></textarea>
+      <button type="submit" class="bg-primary text-white px-6 py-3 rounded">Send Message</button>
+    </form>
+    <div class="flex flex-wrap gap-4 mt-6">
       <a href="https://wa.me/2349026722966" target="_blank" class="flex-1 min-w-[200px] text-center px-6 py-3 bg-primary text-white rounded">WhatsApp Me</a>
       <a href="mailto:davidainosi@gmail.com" class="flex-1 min-w-[200px] text-center px-6 py-3 bg-primary text-white rounded">Email Me</a>
     </div>
